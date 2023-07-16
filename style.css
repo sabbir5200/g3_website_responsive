@@ -134,6 +134,7 @@
    .footer{
     display: flex;
     margin-top: 40px;
+    border-radius: 5px;
    }
    .footer-des{
     padding: 40px;
