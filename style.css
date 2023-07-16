@@ -117,8 +117,20 @@
 
 
 
-
-
+   /* sponsors start */
+   .sponsors{
+    text-align: center;
+   }
+   .sponsors-img-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    gap: 30px;
+    align-items: center;
+   }
+   .sponsors-img-container img{
+    width: 165px;
+   }
 
 
 
@@ -146,16 +158,30 @@
         padding-right:20px ;
         padding-left: 20px;
        }
+       .facts-card-container{
+        flex-direction: column;
+        padding-right:20px ;
+        padding-left: 20px;
+        gap: 10px;
+        
+       }
+       .sponsors-img-container{
+        flex-direction: column;
+        gap: 30px;
+        
+        
+       }
    }
    /* tablet devices */
    @media screen and (min-width : 576px) and (max-width : 960px){
     nav{
         flex-direction: column;
       }
-      .teams-container{
+      .teams-container, .sponsors-img-container{
         flex-direction: column;
       }
       header{
         padding: 40px;
       }
+
    }
