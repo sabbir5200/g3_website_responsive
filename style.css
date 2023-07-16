@@ -131,8 +131,19 @@
    .sponsors-img-container img{
     width: 165px;
    }
-
-
+   .footer{
+    display: flex;
+    margin-top: 40px;
+   }
+   .footer-des{
+    padding: 40px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #FFF4E7;
+    font-size: 1.2rem;
+     width: 1440px;
+    margin: 0 auto;
+   }
 
 
 
